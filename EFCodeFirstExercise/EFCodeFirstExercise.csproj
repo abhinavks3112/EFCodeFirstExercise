@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201912221656169_InitialModel.designer.cs">
       <DependentUpon>201912221656169_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912281349150_PopulateVideosAndGenresTable.cs" />
+    <Compile Include="Migrations\201912281349150_PopulateVideosAndGenresTable.designer.cs">
+      <DependentUpon>201912281349150_PopulateVideosAndGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +75,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201912221656169_InitialModel.resx">
       <DependentUpon>201912221656169_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912281349150_PopulateVideosAndGenresTable.resx">
+      <DependentUpon>201912281349150_PopulateVideosAndGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
