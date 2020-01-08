@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCodeFirstExercise
+namespace EFCodeFirstExistingDatabase.EntityConfigurations
 {
-    public enum Classification : byte
+    class GenreConfiguration
     {
-        Silver,
-        Gold, 
-        Platinum
     }
 }
