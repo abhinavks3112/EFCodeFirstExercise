@@ -86,9 +86,18 @@
     <Compile Include="Migrations\202001081519563_EnhanceColumnsInGenresTable.designer.cs">
       <DependentUpon>202001081519563_EnhanceColumnsInGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001090730239_AddTagsTable.cs" />
+    <Compile Include="Migrations\202001090730239_AddTagsTable.designer.cs">
+      <DependentUpon>202001090730239_AddTagsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001091303539_AddMTMRelationshipBetweenTagsAndVideosTable.cs" />
+    <Compile Include="Migrations\202001091303539_AddMTMRelationshipBetweenTagsAndVideosTable.designer.cs">
+      <DependentUpon>202001091303539_AddMTMRelationshipBetweenTagsAndVideosTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
     <Compile Include="Video.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001081519563_EnhanceColumnsInGenresTable.resx">
       <DependentUpon>202001081519563_EnhanceColumnsInGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001090730239_AddTagsTable.resx">
+      <DependentUpon>202001090730239_AddTagsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001091303539_AddMTMRelationshipBetweenTagsAndVideosTable.resx">
+      <DependentUpon>202001091303539_AddMTMRelationshipBetweenTagsAndVideosTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

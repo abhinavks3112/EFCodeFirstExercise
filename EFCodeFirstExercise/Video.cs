@@ -14,5 +14,10 @@ namespace EFCodeFirstExercise
         public Genre Genre { get; set; }
         public byte GenreId { get; set; }
         public Classification Classification { get; set; }
+        public ICollection<Tag> Tags { get; set; }
+        public Video()
+        {
+            Tags = new HashSet<Tag>();
+        }
     }
 }
